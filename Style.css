@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+html,
+body{
+    height: 100%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main{
+    padding: 45px 90px 100px 100px;
+    /* padding-left: 100px; */
+    /* padding-right: ; */
+    height: 100%;
+    width: 100%;
+    background-color: rgb(252, 238, 220);
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav h1{
+    /* padding: 10px; */
+    color: blueviolet;
+
+}
+
+.links{
+    margin-top: 15px;
+    display: flex;
+    gap:50px;
+}
+
+.links p {
+    cursor:pointer;
+}
+
+nav button{
+    /* width: 100px;
+    height: 40px; */
+    margin-top: 8px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 2px solid black;
+    background-color: transparent;
+    font-size: small;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+
+.down{
+    height: 50%;
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+
+}
+
+
+.left{
+    height: 100%;
+    /* background-color: red; */
+    width: 50%;
+
+}
+
+.left h1{
+    margin-top: 30px;
+    font-size: 70px;
+    font-weight: 500;
+    margin-bottom: 15px;
+
+}
+
+
+.left p{
+    font-size: 20px;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+}
+
+.bottom{
+    display: flex;
+    height: 15%;
+    align-items: center;
+    /* font-size: 1px; */
+    gap: 14px;
+    text-align: center;
+    /* margin-bottom: 50px; */
+}
+
+.box {
+    /* margin-left: 40px; */
+    height: 75px;
+    width: 20%;
+    /* background-color: red; */
+    /* height: 100%; */
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+}
+
+
+.box h1{
+    font-weight: 500;
+    font-size:xx-large;
+    margin-bottom: 10px;
+}
+
+.leftSide,
+.middle {
+    position: relative;
+    border-right: none;
+}
+
+.leftSide::after,
+.middle::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 25px;       /* shifts the line down */
+    height: 70px;    /* length of the line */
+    width: 2px;
+    background-color: black;
+}
+
+.box p{
+    font-size: x-small;
+    color: grey;
+}
+
+.right{
+    height: 100%;
+    /* background-color:greenyellow; */
+    width: 50%;
+}
+
+.left button{
+    font-size: medium;
+    font-weight: 500;
+    padding: 15px 40px;
+    margin-right: 50px;
+    border-radius: 50px;
+    border: none;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(254, 156, 254);
+    color: white;
+    /* margin-bottom: 70px; */
+    
+}
+
+#learn-more{
+    background-color: transparent;
+    border: 2px solid black ;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.my-img{
+    margin-left: 100%;
+    max-width: 500px;
+    display: block;
+    margin-left: 30px;
+}
