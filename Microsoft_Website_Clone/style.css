@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.img{
+    height: 40px;
+    width: 170px;
+    margin: 15px 70px;
+}
+
+.nav{
+    padding: 0px 100px;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navleft{
+    display: flex;
+    align-items: center; 
+    gap: 20px;
+    font-size: 14px;
+}
+
+.navRight {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: auto;
+
+}
+
+.navLink{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+    
+.main {
+    margin-top: 20px;
+    height: 650px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.category{
+    height: 20%;
+    width: 100%;
+    /* background-color: red;s */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.catBox{
+    text-align: center;
+    color: #004275;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.catBox img {
+    margin-bottom: 10px;
+
+}
+
+.catBox p {
+    text-decoration-line: underline;
+    text-decoration-style: underline;
+    
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+}
+
+.cards{
+    padding: 0px 180px;
+    height: 60%;
+    /* background-color: rgb(249, 200, 200); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cardBox{
+    height: 85%;
+    border: 1px solid rgb(191, 191, 191);
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+
+.cardBox h3{
+    margin-bottom: 20px;
+
+}
+
+.cardBox p{
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+#cardBoxImg{
+    height: 40%;
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+#cardBoxImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+#Learn-More{
+    height: 30px;
+    width: 100px;
+    background-color:#006DC1;
+    color: white;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
